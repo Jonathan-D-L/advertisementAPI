@@ -23,8 +23,8 @@ builder.Services.AddSwaggerGen(sw =>
         Description = @"API for retrieving Adverts",
         Contact = new OpenApiContact
         {
-            Name = "Example Name",
-            Email = "Example.Name@Example.com",
+            Name = "Jon Doe",
+            Email = "Jon.Doe@Email.com",
         },
     });
     // Needed for authorisation ========================================================
