@@ -9,8 +9,8 @@ using System.Data;
 
 namespace advertisementAPI.Controllers
 {
-    [ApiController]
     [Route("[controller]")]
+    [ApiController]
     [EnableCors("AllowAll")]
     public class AdvertController : ControllerBase
     {
