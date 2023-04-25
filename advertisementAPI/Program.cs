@@ -111,6 +111,8 @@ app.UseHttpsRedirection();
 // Adding CORS ========================================================
 app.UseCors("AllowAll");
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();
